@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+.footer{
+  font-family: "Oswald", sans-serif;
+  padding: 30px;
+  background-color: black;
+  .fiveBlocks{
+    width: 100%;
+    height: 437px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    .title{
+      color: #43FFD2;
+      cursor: pointer;
+    }
+    .pointer{
+      cursor: pointer;
+    }
+    .mediaSocial{
+      display: flex;
+      gap: 20px;
+      
+    }
+    .requisites{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .catalog{
+        .blockColumn{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+    }
+    .flower{
+        .blockColumn{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+  
+    }
+    .navigation{
+        .title {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+    .socialMedia{
+      cursor: pointer;
+      display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .mediaGrey{
+                color: grey;
+                font-weight: 300;
+                margin-top: 10px;
+            }
+    }
+  }
+}
