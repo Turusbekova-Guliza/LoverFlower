@@ -3,7 +3,7 @@ import './Basket.scss'
 
 function Basket() {
   return (
-    <div>Basket</div>
+    <div>Basket component</div>
   )
 }
 
