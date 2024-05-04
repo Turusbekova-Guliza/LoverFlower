@@ -28,9 +28,9 @@ const Header = () => {
                             </Link>
                         </div>
                         <div className='navigation_header'>
-                            <div onClick={handleCatalogClick}>
+                            <div>
                                 <Link style={{ textDecoration: "none" }} to="/katalog">
-                                    <h1 className='text_navigation'>
+                                    <h1 onClick={handleCatalogClick} className='text_navigation'>
                                         КАТАЛОГ
                                     </h1>
                                 </Link>

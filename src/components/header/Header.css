@@ -5,10 +5,9 @@
     padding: 0px 10px 0px 10px;
   }
   .header {
-    height: 100%;
     position: fixed;
-    width: 100%;
     background-color: black;
+    width: 100%;
   }
   .header_wrapper {
     display: flex;
@@ -54,7 +53,7 @@
     border: none;
     border-bottom: 1px solid transparent;
   }
-  
+
   .search:focus {
     border-bottom-color: #7c7c7c;
   }
@@ -131,4 +130,3 @@
     text-align: right;
     color: #43ffd2;
   }
-  
