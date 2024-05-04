@@ -5,10 +5,8 @@
     padding: 0px 10px 0px 10px;
   }
   .header {
-    height: 100%;
     position: fixed;
     width: 100%;
-    background-color: black;
   }
   .header_wrapper {
     display: flex;

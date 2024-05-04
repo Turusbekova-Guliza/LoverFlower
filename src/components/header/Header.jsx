@@ -19,7 +19,9 @@ const Header = () => {
 
     return (
         <>
-            <header className='header'>
+            <header style={{
+                backgroundColor: showLoverFlower ? "transparent" : "black"
+            }} className='header'>
                 <div className="container">
                     <div className="header_wrapper">
                         <div className='Logo'>
