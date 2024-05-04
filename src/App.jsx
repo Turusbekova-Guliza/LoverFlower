@@ -13,9 +13,13 @@ import Mistake from "./pages/mistake/Mistake";
 import NotFound from "./pages/notFound/NotFound";
 import Order from "./pages/order/Order";
 import Success from "./pages/success/Success";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
+    <>
+    <Header/>
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
@@ -31,6 +35,8 @@ function App() {
         <Route path="success" element={<Success />} />
       </Route>
     </Routes>
+    <Footer/>
+    </>
   );
 }
 
