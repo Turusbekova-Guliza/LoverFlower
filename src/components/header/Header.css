@@ -1,132 +1,128 @@
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-    border: 1px solid red;
-    padding: 0px 10px 0px 10px;
-  }
-  .header {
-    position: fixed;
-    background-color: black;
-    width: 100%;
-  }
-  .header_wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .navigation_header {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-  }
-  .text_navigation {
-    font-family: Oswald;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20.75px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    color: white;
-  }
-  .search {
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
-    color: white;
-  }
-  .Search {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Search img {
-    width: 18px;
-    margin-right: -17px;
-  }
-  .Search input {
-    padding: 10px;
-    padding-left: 20px;
-    outline: none;
-    width: 300px;
-  }
-  .search {
-    border: none;
-    border-bottom: 1px solid transparent;
-  }
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+}
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation_header {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.text_navigation {
+  font-family: Oswald;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.75px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: white;
+}
+.search {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: white;
+}
+.Search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Search img {
+  width: 18px;
+  margin-right: -17px;
+}
+.Search input {
+  padding: 10px;
+  padding-left: 20px;
+  outline: none;
+  width: 300px;
+}
+.search {
+  border: none;
+  border-bottom: 1px solid transparent;
+}
 
-  .search:focus {
-    border-bottom-color: #7c7c7c;
-  }
-  input[type="search"]::-webkit-search-cancel-button {
-    -webkit-appearance: none;
-    cursor: pointer;
-    height: 20px;
-    width: 20px;
-    background-image: url("./assets/search__x.svg");
-  }
-  .lover_flower_gmail {
-    font-family: Oswald;
-    display: flex;
-    flex-direction: column;
-    display: none;
-  }
-  .lover_flower_gmail p {
-    font-family: Oswald;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 14.82px;
-    letter-spacing: 0.1em;
-    text-align: right;
-    color: white;
-  }
-  .lover_flower_gmail h1 {
-    font-size: 16px;
-    margin-bottom: -6px;
-    font-weight: 400;
-    line-height: 20.75px;
-    letter-spacing: 0.1em;
-    text-align: right;
-    color: #43ffd2;
-  }
-  .card__small {
-    display: flex;
-    align-items: center;
-    gap: 21px;
-  }
-  .card__total {
-    position: relative;
-    color: white;
-  }
-  .card__total span {
-    position: absolute;
-    border-radius: 50%;
-    width: 14px;
-    background-color: #43ffd2;
-    color: black;
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 17.78px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    font-family: oswald;
-    height: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: -2px;
-    right: -5px;
-  }
-  .phone {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .phone p {
-    font-family: Oswald;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20.75px;
-    letter-spacing: 0.1em;
-    text-align: right;
-    color: #43ffd2;
-  }
+.search:focus {
+  border-bottom-color: #7c7c7c;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  background-image: url("./assets/search__x.svg");
+}
+.lover_flower_gmail {
+  font-family: Oswald;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+.lover_flower_gmail p {
+  font-family: Oswald;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.82px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: white;
+}
+.lover_flower_gmail h1 {
+  font-size: 16px;
+  margin-bottom: -6px;
+  font-weight: 400;
+  line-height: 20.75px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: #43ffd2;
+}
+.card__small {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+.card__total {
+  position: relative;
+  color: white;
+}
+.card__total span {
+  position: absolute;
+  border-radius: 50%;
+  width: 14px;
+  background-color: #43ffd2;
+  color: black;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 17.78px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  font-family: oswald;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -2px;
+  right: -5px;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.phone p {
+  font-family: Oswald;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.75px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: #43ffd2;
+}

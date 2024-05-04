@@ -3,7 +3,7 @@ import './FAQ.scss'
 
 function FAQ() {
   return (
-    <div>FAQ</div>
+    <div className='faq-container'>FAQ</div>
   )
 }
 
