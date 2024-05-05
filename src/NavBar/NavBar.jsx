@@ -13,7 +13,11 @@ import NotFound from "../pages/notFound/NotFound";
 import Order from "../pages/order/Order";
 import Success from "../pages/success/Success";
 import Contact from "../pages/contact/Contact";
+
+import CatalogPage from "../pages/catalog/Catalog";
+
 import Client from "../pages/client/Client";
+
 
 function NavBar() {
   return (
@@ -23,7 +27,7 @@ function NavBar() {
         <Route path="about" element={<About />} />
         <Route path="basket" element={<Basket />} />
         <Route path="cardsProduct" element={<CardsProduct />} />
-        <Route path="catalog" element={<Catalog />} />
+        <Route path="catalogPage" element={<CatalogPage/>} />
         <Route path="delPay" element={<DelPay />} />
         <Route path="faq" element={<Faq />} />
         <Route path="mistake" element={<Mistake />} />
