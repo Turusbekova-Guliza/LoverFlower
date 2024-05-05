@@ -13,6 +13,7 @@ import NotFound from "../pages/notFound/NotFound";
 import Order from "../pages/order/Order";
 import Success from "../pages/success/Success";
 import Contact from "../pages/contact/Contact";
+import Client from "../pages/client/Client";
 
 function NavBar() {
   return (
@@ -30,6 +31,7 @@ function NavBar() {
         <Route path="order" element={<Order />} />
         <Route path="success" element={<Success />} />
         <Route path="contact" element={<Contact/>}/>
+        <Route path="client" element={<Client/>}/>
       </Route>
     </Routes>
   );
