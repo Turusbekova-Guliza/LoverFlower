@@ -1,43 +1,23 @@
 * {
   box-sizing: border-box;
+  margin: 0;padding: 0;
 }
 
 .contact {
   position: relative;
+  width: 100%;
   .contactInfo {
     position: relative;
     .contacts {
       padding: 200px;
-      .blur {
-        position: absolute;
-        left: -170px;
-        bottom: 100px;
-        z-index: 0;
-      }
-      .flower-rose img {
-        position: absolute;
-        right: -167px;
-        bottom: -130px;
-        z-index: 10;
-      }
-      .blur2 {
-        position: absolute;
-        right: -167px;
-        bottom: 185px;
-        z-index: 0;
-      }
-      .blur3 {
-        position: absolute;
-        bottom: -150px;
-        left: -0px;
-      }
+     
       .contactBlcoks {
         display: flex;
         justify-content: center;
         gap: 30px;
         border-radius: 20px;
         .block {
-          width: 285px;
+          width: 485px;
           height: 285px;
           backdrop-filter: blur(5px);
           border-radius: 20px;
@@ -71,11 +51,36 @@
   }
   .blur6{
     position: absolute;
-    left: 1400px;
+    // left: 1400px;
+    right: 0;
     bottom: 0;
+  }
+  .blur {
+    position: absolute;
+    left: 0px;
+    bottom: 1550px;
+    z-index: 0;
+  }
+  .flower-rose img {
+    position: absolute;
+    right: 0px;
+    bottom: 1230px;
+    z-index: 10;
+  }
+  .blur2 {
+    position: absolute;
+    right: 0px;
+    bottom: 1600px;
+    z-index: 0;
+  }
+  .blur3 {
+    position: absolute;
+    bottom: 1200px;
+    left: 300px;
   }
   .hireMe {
     position: relative;
+    margin-top: 150px;
     .heroComment {
       display: flex;
       justify-content: center;
