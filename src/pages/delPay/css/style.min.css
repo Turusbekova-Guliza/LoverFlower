@@ -74,27 +74,6 @@
   .promo {
     margin-top: 50px;
     z-index: 10;
-
-    .breadcrumbs__links {
-      position: relative;
-      z-index: 10;
-      color: #ffffff;
-    }
-    .breadcrumbs__links span {
-      margin: 0 5px;
-    }
-    .breadcrumbs__link {
-      font-size: 12px;
-      line-height: 18px;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      text-decoration: none;
-      color: #fff;
-    }
-    .breadcrumbs__link:hover {
-      color: #43ffd2;
-      text-decoration: underline;
-    }
   }
   .promo__img {
     position: absolute;

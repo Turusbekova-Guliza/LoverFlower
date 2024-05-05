@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main__order {
+  padding: 75px 0;
+  background: #040a0a;
+
+  .section__order-1 {
+    position: relative !important;
+
+    .blue__rose-1 {
+      position: absolute;
+      z-index: 9;
+      top: -100px;
+      left: 0;
+      width: 500px;
+    }
+
+    .blue__elipse-1 {
+      position: absolute;
+      z-index: 1;
+      top: -100px;
+      left: 0;
+      width: 500px;
+    }
+
+    .red__rose-2 {
+      position: absolute;
+      z-index: 9;
+      top: -500px;
+      right: 0;
+      width: 1500px !important;
+      rotate:(0deg);
+    }
+
+    .red__elipse-2 {
+      position: absolute;
+      z-index: 1;
+      top: -200px;
+      right: 0;
+      width: 60%;
+    }
+
+    .order__title__block {
+      position: relative;
+      padding: 200px 0 100px 150px;
+      z-index: 10;
+
+      .order__title-top {
+        margin-top: 50px;
+        position: relative;
+        z-index: 2;
+        font-weight: 400;
+        font-size: 100px;
+        font-family: Cormorant, serif;
+        line-height: 98px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #fff;
+      }
+
+      .order__title-bottom {
+        margin-left: 90px;
+        position: relative;
+        z-index: 2;
+        font-weight: 400;
+        font-size: 100px;
+        font-family: Cormorant, serif;
+        line-height: 98px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #fff;
+      }
+
+      .lover-flower {
+        position: absolute;
+        left: 650px;
+        bottom: 0;
+      }
+    }
+  }
+}
