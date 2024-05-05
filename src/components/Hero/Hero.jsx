@@ -49,6 +49,7 @@ const Hero = () => {
                     </div>
                 </section>
                 <div style={{ height: "406px" }}>
+                    <div className='hero__shadow'></div>
                 </div>
             </div>
         </>
