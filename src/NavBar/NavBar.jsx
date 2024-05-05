@@ -12,6 +12,7 @@ import Mistake from "../pages/mistake/Mistake";
 import NotFound from "../pages/notFound/NotFound";
 import Order from "../pages/order/Order";
 import Success from "../pages/success/Success";
+import Contact from "../pages/contact/Contact";
 
 function NavBar() {
   return (
@@ -28,6 +29,7 @@ function NavBar() {
         <Route path="notFound" element={<NotFound />} />
         <Route path="order" element={<Order />} />
         <Route path="success" element={<Success />} />
+        <Route path="contact" element={<Contact/>}/>
       </Route>
     </Routes>
   );
