@@ -30,7 +30,7 @@ const Header = () => {
   useEffect(() => {
     const isHomePage = location.pathname === "/";
     const isCatalogPage = location.pathname === "/catalogPage";
-    
+
     if ((isHomePage || isCatalogPage) && prevScrollPos > 0) {
       setShowLoverFlower(true);
     } else {
