@@ -3,7 +3,7 @@ import './DelPay.scss'
 
 function DelPay() {
   return (
-    <div>DelPay</div>
+    <div className='delpay-container'>DelPay</div>
   )
 }
 

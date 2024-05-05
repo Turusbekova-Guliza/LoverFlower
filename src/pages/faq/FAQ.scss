@@ -1,0 +1,71 @@
+.faq-container {
+  margin-top: 70px;
+  background-color: #040a0a;
+  opacity: 90%;
+  position: relative;
+  min-height: 1200px;
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 190px;
+    .faq-content {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .line {
+        width: 65px;
+        height: 1px;
+        border: 1px solid #43ffd2;
+      }
+      color: #fff !important;
+      margin-top: 72px;
+      h2 {
+        font-family: "Cormorant", serif !important;
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 121px;
+        letter-spacing: 2%;
+      }
+    }
+    .accordion {
+      width: 800px;
+      height: 70px;
+    //   margin-top: 260px;
+    //   margin-left: 165px;
+      margin-bottom: 200px;
+    }
+  }
+  .flower-position {
+    position: absolute;
+    top: 1px;
+    z-index: 999 !important;
+  }
+  .flower-position1 {
+    position: absolute;
+    top: 0;
+  }
+  .flower-position2 {
+    position: absolute;
+    right: 0;
+    top: -50px;
+    z-index: 9999;
+  }
+  .flower-position3 {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    z-index: 9999;
+  }
+  .flower-position4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .flower-position5 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
