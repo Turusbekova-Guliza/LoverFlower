@@ -26,17 +26,17 @@ const Header = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [prevScrollPos]);
+  
+  useEffect(() => {
+    const isHomePage = location.pathname === "/";
+    const isCatalogPage = location.pathname === "/catalogPage";
 
-  // useEffect(() => {
-  //   const isHomePage = location.pathname === "/";
-  //   const isCatalogPage = location.pathname === "/catalogPage";
-    
-  //   if ((isHomePage || isCatalogPage) && prevScrollPos > 0) {
-  //     setShowLoverFlower(true);
-  //   } else {
-  //     setShowLoverFlower(false);
-  //   }
-  // }, [location, prevScrollPos]);
+    if ((isHomePage || isCatalogPage) && prevScrollPos > 0) {
+      setShowLoverFlower(true);
+    } else {
+      setShowLoverFlower(false);
+    }
+  }, [location, prevScrollPos]);
 
   const handleCatalogClick = () => {
     setShowLoverFlower(true);
