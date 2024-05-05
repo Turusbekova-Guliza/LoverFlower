@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Search from "../../assets/Search.svg";
 import LogoImg from "../../assets/Logo.svg";
 import CardIcon from "../../assets/Card.svg";
@@ -10,7 +10,7 @@ const Header = () => {
   const [showLoverFlower, setShowLoverFlower] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [isVisible, setIsVisible] = useState(true);
-  const history = useHistory();
+  // const history = useHistory();
   const location = useLocation();
 
   useEffect(() => {
@@ -27,26 +27,22 @@ const Header = () => {
     };
   }, [prevScrollPos]);
 
-  useEffect(() => {
-    const isHomePage = location.pathname === "/";
-    const isCatalogPage = location.pathname === "/catalogPage";
+  // useEffect(() => {
+  //   const isHomePage = location.pathname === "/";
+  //   const isCatalogPage = location.pathname === "/catalogPage";
     
-    if ((isHomePage || isCatalogPage) && prevScrollPos > 0) {
-      setShowLoverFlower(true);
-    } else {
-      setShowLoverFlower(false);
-    }
-  }, [location, prevScrollPos]);
+  //   if ((isHomePage || isCatalogPage) && prevScrollPos > 0) {
+  //     setShowLoverFlower(true);
+  //   } else {
+  //     setShowLoverFlower(false);
+  //   }
+  // }, [location, prevScrollPos]);
 
   const handleCatalogClick = () => {
     setShowLoverFlower(true);
   };
 
   const handleOtherLinkClick = () => {
-    setShowLoverFlower(false);
-  };
-
-  const handlePageChange = () => {
     setShowLoverFlower(false);
   };
 
@@ -60,28 +56,28 @@ const Header = () => {
             </Link>
           </div>
           <div className="navigation_header">
-            <div>
-              <Link to="/catalogPage" style={{ textDecoration: "none" }} onClick={handleOtherLinkClick}>
+            <div onClick={handleOtherLinkClick}>
+              <Link to="/catalogPage" style={{ textDecoration: "none" }}>
                 <h1 className="text_navigation">КАТАЛОГ</h1>
               </Link>
             </div>
             <div onClick={handleCatalogClick}>
-              <Link to="/delPay" style={{ textDecoration: "none" }} onClick={handlePageChange}>
+              <Link to="/delPay" style={{ textDecoration: "none" }} >
                 <h1 className="text_navigation">ДОСТОВКА И ОПЛАТА</h1>
               </Link>
             </div>
             <div onClick={handleCatalogClick}>
-              <Link to="/about" style={{ textDecoration: "none" }} onClick={handlePageChange}>
+              <Link to="/about" style={{ textDecoration: "none" }} >
                 <h1 className="text_navigation">О НАС</h1>
               </Link>
             </div>
             <div onClick={handleCatalogClick}>
-              <Link to="/contact" style={{ textDecoration: "none" }} onClick={handlePageChange}>
+              <Link to="/contact" style={{ textDecoration: "none" }} >
                 <h1 className="text_navigation">КОНТАКТЫ</h1>
               </Link>
             </div>
             <div onClick={handleCatalogClick}>
-              <Link to="/faq" style={{ textDecoration: "none" }} onClick={handlePageChange}>
+              <Link to="/faq" style={{ textDecoration: "none" }}>
                 <h1 className="text_navigation">FAQ</h1>
               </Link>
             </div>
