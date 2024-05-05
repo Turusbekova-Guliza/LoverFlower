@@ -26,8 +26,7 @@ const Header = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [prevScrollPos]);
-
-<<<<<<< HEAD
+  
   useEffect(() => {
     const isHomePage = location.pathname === "/";
     const isCatalogPage = location.pathname === "/catalogPage";
@@ -38,18 +37,6 @@ const Header = () => {
       setShowLoverFlower(false);
     }
   }, [location, prevScrollPos]);
-=======
-  // useEffect(() => {
-  //   const isHomePage = location.pathname === "/";
-  //   const isCatalogPage = location.pathname === "/catalogPage";
-    
-  //   if ((isHomePage || isCatalogPage) && prevScrollPos > 0) {
-  //     setShowLoverFlower(true);
-  //   } else {
-  //     setShowLoverFlower(false);
-  //   }
-  // }, [location, prevScrollPos]);
->>>>>>> 3b0d4fb8a47f417375b6f48a9ea9f87a1efcc337
 
   const handleCatalogClick = () => {
     setShowLoverFlower(true);
