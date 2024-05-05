@@ -4,6 +4,7 @@
   left: 0;
   background-color: black;
   width: 100%;
+
   z-index: 9999;
   transition: 1s;
 }
@@ -13,6 +14,7 @@
 .hidden {
   background-color: black !important;
   display: block !important;
+  z-index: 199;
 }
 .header_wrapper {
   display: flex;

@@ -1,3 +1,195 @@
 .about-container {
-    margin-top: 80px;
+  min-height: 1200px;
+  margin-top: 73px;
+  background: #040a0a;
+  opacity: 90%;
+  position: relative;
+  .container {
+    padding: 99px 90px;
+    .about-component1 {
+      width: 100%;
+      height: 900px;
+      .about-text {
+        color: #fff;
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 121px;
+        font-family: "Cormorant", serif !important;
+        letter-spacing: 2%;
+        margin-bottom: 98px;
+      }
+      .about-content {
+        display: flex;
+        justify-content: space-between;
+        .content {
+          display: flex;
+          align-items: center;
+          position: absolute;
+          margin-left: 200px;
+          margin-top: 60px;
+          .content-text {
+            font-size: 100px;
+            font-weight: 400;
+            line-height: 100px;
+            letter-spacing: 2%;
+            font-family: "Cormorant", serif !important;
+            text-transform: uppercase;
+            color: #43ffd2;
+          }
+          .line {
+            width: 100px;
+            border: 1px solid #43ffd2;
+            margin-top: 100px;
+            margin-left: 20px;
+          }
+        }
+        .block-content {
+          width: 1020px;
+          background: #000;
+          opacity: 90%;
+          padding: 40px 20px;
+          margin-top: 255px;
+          position: absolute;
+          right: 0;
+          h2 {
+            color: #fff !important;
+            margin-bottom: 20px;
+            font-size: 20px;
+            line-height: 26px;
+            letter-spacing: 2%;
+            text-transform: uppercase;
+          }
+          p {
+            color: #fff !important;
+            font-size: 20px;
+            line-height: 26px;
+            letter-spacing: 4%;
+          }
+        }
+        .position-image {
+          margin-left: 300px;
+          z-index: 99;
+        }
+      }
+    }
+    .about-component2 {
+      width: 900px;
+      height: 750px;
+      margin: 0 210px;
+      position: relative;
+      .content-2 {
+        h2 {
+          font-size: 60px;
+          text-transform: uppercase;
+          color: #43ffd2;
+          font-family: "Cormorant", serif !important;
+          letter-spacing: 2px;
+          font-weight: 400;
+        }
+        p {
+          width: 825px;
+          color: #fff;
+          font-size: 20px;
+          line-height: 29px;
+          letter-spacing: 2%;
+          text-transform: uppercase;
+        }
+      }
+      .content-3 {
+        margin-top: 100px;
+        h2 {
+          font-family: "Cormorant", serif;
+          text-transform: uppercase;
+          font-size: 60px;
+          line-height: 64px;
+          font-weight: 400;
+          color: #43ffd2;
+          letter-spacing: 2%;
+          margin-bottom: 10px;
+        }
+        ul {
+          position: absolute;
+          right: 0;
+          li {
+            color: #fff;
+            list-style: inside;
+            font-family: "Cormorant", serif !important;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 34px;
+            letter-spacing: 4%;
+          }
+        }
+      }
+    }
+    .about-component3 {
+      margin-top: 162px;
+      margin-bottom: 200px;
+      .about-footer {
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: 2%;
+        font-family: "Cormorant", serif !important;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      .about-footer-text {
+        width: 445px;
+        margin: 0 auto;
+        margin-top: 40px;
+        font-size: 20px;
+        line-height: 29px;
+        letter-spacing: 2%;
+        font-family: "Cormorant", serif !important;
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .about-position {
+    position: absolute;
+    top: 0;
+    left: 0;
+    .about-position1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 800px;
+      img {
+        width: 1000px;
+      }
+    }
+  }
+  .about-position2 {
+    position: absolute;
+    top: -56px;
+    right: 0;
+    z-index: 999;
+    width: 1000px;
+    .about-position3 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 900px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .about-position4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  .about-position5 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .about-position6 {
+    position: absolute;
+    right: 0;
+    bottom: -170px;
+  }
 }
