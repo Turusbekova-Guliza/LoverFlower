@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 0;padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .contact {
@@ -10,7 +11,7 @@
     position: relative;
     .contacts {
       padding: 200px;
-     
+
       .contactBlcoks {
         display: flex;
         justify-content: center;
@@ -45,11 +46,11 @@
     top: 200px;
     left: 0px;
   }
-  .blur5{
+  .blur5 {
     position: absolute;
     bottom: 0;
   }
-  .blur6{
+  .blur6 {
     position: absolute;
     // left: 1400px;
     right: 0;
@@ -134,15 +135,15 @@
             .form__policy-contacts a {
               color: #922d2d;
             }
-  
+
             .form__policy-contacts a:hover {
               color: #43ffd2;
             }
-  
+
             // .form__btn-contacts:hover {
             //   background: #922d2d;
             // }
-  
+
             .form__input::placeholder,
             .form__textarea::placeholder {
               font-size: 14px;
@@ -151,45 +152,44 @@
               text-transform: uppercase;
               color: white;
             }
-  
+
             .form__input-contacts,
             .form__textarea-contacts {
               border: 1px solid #555555;
             }
-  
+
             .form__input-contacts::-webkit-input-placeholder,
             .form__textarea-contacts::-webkit-input-placeholder {
               color: white;
             }
-  
+
             .form__input-contacts::-moz-placeholder,
             .form__textarea-contacts::-moz-placeholder {
               color: white;
             }
-  
+
             .form__input-contacts:-ms-input-placeholder,
             .form__textarea-contacts:-ms-input-placeholder {
               color: white;
             }
-  
+
             .form__input-contacts::-ms-input-placeholder,
             .form__textarea-contacts::-ms-input-placeholder {
               color: white;
             }
-  
+
             .form__input-contacts::placeholder,
             .form__textarea-contacts::placeholder {
               color: white;
             }
-  
+
             .form__textarea {
-              
               height: 180px;
               margin-bottom: 20px;
               padding: 20px;
               resize: none;
             }
-  
+
             .form__policy {
               margin-top: 10px;
               font-size: 12px;
@@ -198,21 +198,19 @@
               max-width: 360px;
               color: white;
             }
-  
+
             input,
             textarea {
-              background-color:  black !important;
+              background-color: black !important;
               opacity: 30%;
               margin-bottom: 20px;
               padding: 10px 20px;
               border: 1px solid white;
               width: 450px;
-              outline: none;  
+              outline: none;
               color: white;
-          backdrop-filter: blur(20px);
-          box-shadow: 0 0 8px #ffffff25;
-  
-  
+              backdrop-filter: blur(20px);
+              box-shadow: 0 0 8px #ffffff25;
             }
             button {
               color: black;
@@ -222,11 +220,10 @@
               padding: 10px 20px;
               width: 255px;
               height: 50px;
-              background-color: 
-              #43FFD2;
+              background-color: #43ffd2;
               border: none;
               .btn:hover {
-                background: darken(#43FFD2, 5%);  
+                background: darken(#43ffd2, 5%);
               }
             }
           }

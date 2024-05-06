@@ -9,7 +9,7 @@ import "./Header.css";
 const Header = () => {
   const [showLoverFlower, setShowLoverFlower] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible ] = useState(true);
   // const history = useHistory();
   const location = useLocation();
 
@@ -26,7 +26,7 @@ const Header = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [prevScrollPos]);
-  
+
   useEffect(() => {
     const isHomePage = location.pathname === "/";
     const isCatalogPage = location.pathname === "/catalogPage";
