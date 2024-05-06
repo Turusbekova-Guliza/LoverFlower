@@ -31,7 +31,7 @@ function NavBar() {
         <Route path="delPay" element={<DelPay />} />
         <Route path="faq" element={<Faq />} />
         <Route path="mistake" element={<Mistake />} />
-        <Route path="notFound" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
         <Route path="order" element={<Order />} />
         <Route path="success" element={<Success />} />
         <Route path="contact" element={<Contact/>}/>
