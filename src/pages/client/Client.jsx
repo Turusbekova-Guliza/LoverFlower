@@ -12,7 +12,7 @@ function Client() {
         <div className="clientInfo">
           <div className="clientTexts">
             <div className="topTexts">
-              <h1>БУКЕТЫ</h1>
+              <h1>Букеты</h1>
               <p>
                 <span className="forcon">поздравления для </span>
                 <br />

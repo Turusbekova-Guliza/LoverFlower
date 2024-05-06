@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <section className="footer">
+    <section className="footer" >
       <div className="container">
-        <div  style={{zIndex:"1000"}}  className="fiveBlocks">
+        <div style={{ zIndex: "1000" }} className="fiveBlocks">
           <div className="requisites">
             <div className="logo">
               <svg
@@ -81,7 +81,8 @@ function Footer() {
                 <h1>FAQ</h1>
               </div>
               <div className="contact">
-                <h1>КОНТАКТЫ</h1>
+                  <h1>КОНТАКТЫ</h1>
+               
               </div>
               <div className="client">
                 <Link to="/client">
