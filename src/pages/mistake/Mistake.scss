@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mistake {
+  position: relative;
+  padding-top: 100px;
+  height: 1000px;
+  z-index: 0;
+  .mistakeTexts {
+    
+    .mistakeHeroTexts {
+      font-family: Cormorant, serif;
+      h1 {
+        color: white;
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 121px;
+        span {
+          margin-left: 160px;
+        }
+      }
+    }
+    .tryAgainMistake {
+      z-index: 19 ;
+      display: flex;
+      align-items: center;
+      gap: 100px;
+      margin-left: 160px;
+      .tryAgainBtn {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .tryTop {
+          padding-top: 50px;
+          z-index: 1;
+        }
+        .tryAgainPay {
+          width: 255px;
+          height: 50px;
+          background-color: #7d2253;
+        }
+      }
+      .backToHero {
+        padding-top: 120px;
+        color: grey;
+      }
+    }
+  }
+  .roses_img_mistake {
+    position: absolute;
+    width: 900px;
+    height: 1000px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .mistakeBlur {
+    position: absolute;
+    bottom: 410px;
+    right: 0;
+  }
+  .mistakeBlur2 {
+    position: absolute;
+    bottom: -200px;
+  }
+}

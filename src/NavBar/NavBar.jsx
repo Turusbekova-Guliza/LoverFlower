@@ -8,11 +8,11 @@ import Catalog from "../pages/catalog/Catalog";
 import DelPay from "../pages/delPay/DelPay";
 import Faq from "../pages/faq/FAQ";
 import Home from "../pages/home/Home";
-import Mistake from "../pages/mistake/Mistake";
 import NotFound from "../pages/notFound/NotFound";
 import Order from "../pages/order/Order";
 import Success from "../pages/success/Success";
 import Contact from "../pages/contact/Contact";
+// import Mistake from "../pages/mistake/Mistake";
 
 import CatalogPage from "../pages/catalog/Catalog";
 
@@ -36,6 +36,7 @@ function NavBar() {
         <Route path="success" element={<Success />} />
         <Route path="contact" element={<Contact/>}/>
         <Route path="client" element={<Client/>}/>
+        {/* <Route path="mistakePayment" element={<Mistake/>}/> */}
       </Route>
     </Routes>
   );
