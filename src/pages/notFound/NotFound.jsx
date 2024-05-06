@@ -12,6 +12,7 @@ import zeroNumber from "../../assets/images/zero.png";
 import loverNot from "../../assets/images/lover1.png";
 
 import "./NotFound.scss";
+import { Link } from "react-router-dom";
 
 function NotFound() {
   return (
@@ -50,6 +51,11 @@ function NotFound() {
           </div>
           <div className="position-not3">
             <img src={ellipseNot2} alt="image" />
+          </div>
+          <div className="position-text">
+            <p>Ошибка 404</p>
+            <p>Упс...Такой страницы нет</p>
+            <Link to="/">на главную</Link>
           </div>
         </div>
       </div>
